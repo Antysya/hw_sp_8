@@ -127,6 +127,9 @@ namespace hw_sp_8
 
         public override void Move()
         {
+            if (y == 0)
+                y = WindowHeight;
+            else
                 y--;
         }
 
